@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "fontline",
+  "account_id": "ff8f8e5ff7022eb9ef90a73b80097e68",
+  "compatibility_date": "2026-09-21",
+  "compatibility_flags": ["nodejs_compat"],
+  "main": "@tanstack/react-start/server-entry",
+  "workers_dev": true,
+  "routes": [{ "pattern": "fontline.adityamiskin.com", "custom_domain": true }],
+}
